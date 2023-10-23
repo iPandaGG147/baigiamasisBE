@@ -14,6 +14,7 @@ public class Person {
     private String name;
     private String lastName;
     private String email;
+    private String age;
     private String phoneNumber;
     private String education;
     private String startedDate;
@@ -44,6 +45,14 @@ public class Person {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 
     public String getEmail() {
